@@ -1,27 +1,41 @@
 # 📱 DROP - Aplicación Android
 
-![Header Image](https://via.placeholder.com/800x200?text=DROP+App+Banner) <!-- Reemplaza con tu imagen -->
+![Banner](https://via.placeholder.com/1200x400/3d5a80/ffffff?text=DROP+Android+App)
 
-Aplicación móvil desarrollada en Android Studio que implementa:
-- ✔️ Jetpack Compose para UI moderna
-- ✔️ Navigation Component para flujo de pantallas
-- ✔️ ViewModel + LiveData para gestión de estado
-- ✔️ Temas personalizables con cambio dinámico de colores
+Aplicación móvil que muestra una implementación híbrida de Jetpack Compose y componentes tradicionales de Android.
 
-## 📸 Capturas de Pantalla
-| Inicio | Detalles | Configuración |
-|--------|----------|--------------|
-| ![Home](https://via.placeholder.com/150) | ![Details](https://via.placeholder.com/150) | ![Settings](https://via.placeholder.com/150) |
+## 🚀 Características Principales
+- ✅ Pantalla de inicio con **Fragments** tradicionales
+- ✅ Pantalla de detalles con **Jetpack Compose**
+- ✅ Cambio dinámico de tema con **SharedPreferences**
+- ✅ Navegación con **Navigation Component**
+- ✅ Arquitectura **MVVM** con ViewModel
 
-## 🛠 Tecnologías Utilizadas
-- **Lenguaje**: Kotlin 100%
-- **Arquitectura**: MVVM (Model-View-ViewModel)
-- **Componentes**:
-  - `Compose` (Pantalla de Detalles)
-  - `Fragments` (Pantallas tradicionales)
-  - `SharedPreferences` (Persistencia de configuraciones)
-- **Dependencias Principales**:
-  ```gradle
-  implementation("androidx.navigation:navigation-compose:2.7.6")
-  implementation("androidx.compose.material3:material3:1.1.2")
-  implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+## 🛠 Tecnologías
+<p align="left">
+    <img src="https://img.shields.io/badge/Kotlin-1.9.20-purple?logo=kotlin" alt="Kotlin">
+    <img src="https://img.shields.io/badge/Android%20Studio-Flamingo-orange?logo=android-studio" alt="Android Studio">
+    <img src="https://img.shields.io/badge/Compose-1.5.4-blue?logo=jetpack-compose" alt="Jetpack Compose">
+    <img src="https://img.shields.io/badge/Min%20SDK-24-green?logo=android" alt="Min SDK">
+</p>
+
+## 📸 Demo
+<img src="https://via.placeholder.com/200x400/3d5a80/ffffff?text=Home" width="200" alt="Home Screen"> <img src="https://via.placeholder.com/200x400/3d5a80/ffffff?text=Details" width="200" alt="Details Screen"> <img src="https://via.placeholder.com/200x400/3d5a80/ffffff?text=Settings" width="200" alt="Settings Screen">
+
+## 📁 Estructura del Proyecto
+```bash
+DROP/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/drop/
+│   │   │   │   ├── ui/
+│   │   │   │   │   ├── home/       # Fragment + XML
+│   │   │   │   │   ├── details/    # Pantalla Compose
+│   │   │   │   │   └── settings/   # Preferencias
+│   │   │   │   └── theme/          # Temas y estilos
+│   │   │   ├── res/                # Recursos
+│   │   │   └── AndroidManifest.xml
+│   └── build.gradle.kts            # Dependencias del módulo
+├── gradle/
+└── build.gradle.kts                # Configuración global
