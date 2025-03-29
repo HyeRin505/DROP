@@ -1,6 +1,6 @@
 # 📱 DROP - Aplicación Android
 
-![Banner](https://via.placeholder.com/1200x400/3d5a80/ffffff?text=DROP+Android+App)
+Link de descarga: https://drive.google.com/file/d/1ijA0eyh-UqNVTC8v3c2ncwIa4b0EEzfM/view?usp=drive_link
 
 Aplicación móvil que muestra una implementación híbrida de Jetpack Compose y componentes tradicionales de Android.
 
@@ -20,7 +20,7 @@ Aplicación móvil que muestra una implementación híbrida de Jetpack Compose y
 </p>
 
 ## 📸 Demo
-<img src="https://via.placeholder.com/200x400/3d5a80/ffffff?text=Home" width="200" alt="Home Screen"> <img src="https://via.placeholder.com/200x400/3d5a80/ffffff?text=Details" width="200" alt="Details Screen"> <img src="https://via.placeholder.com/200x400/3d5a80/ffffff?text=Settings" width="200" alt="Settings Screen">
+
 
 ## 📁 Estructura del Proyecto
 ```bash
