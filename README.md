@@ -2,6 +2,8 @@
 
 Link de descarga: https://drive.google.com/file/d/1ijA0eyh-UqNVTC8v3c2ncwIa4b0EEzfM/view?usp=drive_link
 
+NOTA: DESCARGAR EL ARCHIVO, DESCOMPRIMIRLO Y PASAR LA CARPETA A DONDE SE ALMACENAN LOS PROYECTOS EN ANDROID STUDIO
+
 Aplicación móvil que muestra una implementación híbrida de Jetpack Compose y componentes tradicionales de Android.
 
 ## 🚀 Características Principales
@@ -19,7 +21,7 @@ Aplicación móvil que muestra una implementación híbrida de Jetpack Compose y
     <img src="https://img.shields.io/badge/Min%20SDK-24-green?logo=android" alt="Min SDK">
 </p>
 
-## 📸 Demo
+## 📸 Capturas
 
 
 ## 📁 Estructura del Proyecto
